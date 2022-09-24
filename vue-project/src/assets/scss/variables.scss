@@ -1,0 +1,128 @@
+$lightRed: #fa5c7c;
+$red: #e63f3f;
+$salmon: #f56565;
+
+$lightGreen: #0acf97;
+$green: #40b984;
+
+$lightBlue: #00b8d4;
+$cornflower: #727cf5;
+$blue: #0579d6;
+$cornflower: #727cf5;
+
+$lightPurpleButtonColor: $cornflower;
+$lightPurpleButtonClickColor: #626bd5;
+
+$lightRedButtonColor: #ff0000;
+$lightRedButtonClickColor: #ce0000;
+
+$orchid: #bb76db;
+
+$black: #000000;
+
+$backgroundGradientStartColor: rgb(187, 118, 219);
+$backgroundColor: rgb(114, 124, 245);
+$backgroundShadowColor: rgba(114, 124, 245, 0.5);
+
+$primaryLight2: #f5f6ff;
+
+$font--tiny: 11px;
+
+$scrollbarWidth: 12px;
+
+$footerContainerHeight: 50px;
+$cookieBarHeight: 48px;
+$downloadGuideBarHeight: 194px;
+$iphoneIndicatorAreaHeight: 34px;
+
+/* modal element height */
+$modalHeaderHeight: 48px;
+$modalFooterHeight: 48px;
+
+/* 'v' icon color(combobox arrow color, arrow color) */
+$arrowColor: black;
+
+$contentTopMarginFrom768To991: 24px;
+$contentTopMarginOver992: 32px;
+
+$contentMinHeight: 500px;
+
+/* media query min-width standard(screen size) */
+$breakPointForMinimumTabletSize: 768px;
+$breakPointForIPhone11Pro: 415px;
+$breakPointForIPadPro12dot9: 1024px;
+
+// $breakPoint1: 370px;
+// $breakPoint2: 480px;
+// $breakPoint3: 510px;
+// $breakPoint4: 675px;
+// $breakPoint5: 767px;
+// $breakPoint6: 991px;
+// $breakPoint7: 1000px;
+// $breakPoint8: 1070px;
+// $breakPoint9: 1100px;
+// $breakPoint10: 1150px;
+// $breakPoint11: 1200px;
+// $breakPoint12: 1360px;
+
+/* new color set list */
+$primary0120: #4a53cb;
+$primary0110: #5a64de;
+$primary0101: #727cf5;
+$primary0102: #8c94ef;
+$primary0103: #a7adef;
+$primary0104: #bec3fa;
+$primary0105: #dbdeff;
+$primary0106: #edeeff;
+$primary0107: #f7f7fe;
+
+$primary0220: #914eb4;
+$primary0210: #a25cc7;
+$primary0201: #b976dc;
+$primary0202: #cb97e6;
+$primary0203: #d9aeef;
+$primary0204: #e0c2ef;
+$primary0205: #f0e2f8;
+$primary0206: #f6effa;
+
+$primaryGradient20: linear-gradient(122.64deg, #8c51ab 12.41%, #4047a6 99.24%);
+$primaryGradient10: linear-gradient(122.64deg, #a25cc7 12.41%, #5a64de 99.24%);
+$primaryGradient01: linear-gradient(122.64deg, #bb76db 12.41%, #727cf5 99.24%);
+$primaryGradient02: linear-gradient(122.64deg, #d9aeef 12.41%, #a7adef 99.24%);
+$primaryGradient03: linear-gradient(122.64deg, #f0e2f8 12.41%, #dbdeff 99.24%);
+
+$dark01: #353544;
+$dark02: #52526b;
+$dark03: #646486;
+
+$gray01: #858595;
+$gray02: #a3a3b5;
+$gray03: #bcbccc;
+$gray04: #d7d8e6;
+$gray05: #e7e8f3;
+
+$light01: #f3f4fb;
+$light02: #fbfbfd;
+$light03: #ffffff;
+
+$positive01: #4187e4;
+$positive02: #83b7fc;
+$positive03: #d0e4ff;
+$positive04: #e8f2ff;
+
+$negative01: #e65b52;
+$negative02: #f59690;
+$negative03: #ffd3d0;
+
+$alert01: #fd8f60;
+$alert02: #ffae8b;
+$alert03: #ffded0;
+$alert04: #ffefe9;
+
+$additional01: #fac06a;
+$additional02: #7cd851;
+$additional03: #e15fbd;
+
+$tooltipColor: #a3a3b5;
+
+$deleteAccountBg: #ffeceb;

@@ -1,0 +1,553 @@
+@mixin borderBottomDarkGray {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.32);
+}
+
+@mixin borderBottomGray {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@mixin borderBottomGrayBold {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+@mixin borderBottomBlack {
+  border-bottom: 1px solid rgb(51, 51, 51);
+}
+
+@mixin borderTopGray {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@mixin layoutPaddingLeftRight {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+//new font name list
+@mixin sH1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+@mixin h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+@mixin sH2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.25px;
+}
+
+@mixin h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.25px;
+}
+
+@mixin sH3Bold {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+@mixin h3Bold {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+@mixin sH3Reg {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+@mixin h3Reg {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+@mixin sH4Bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+}
+
+@mixin h4Bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sH4Reg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+}
+
+@mixin h4Reg {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sH5Bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+@mixin h5Bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sH5Reg {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+@mixin h5Reg {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sBody1Bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+@mixin body1Bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sBody1Reg {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+@mixin body1Reg {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sBody2Bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+@mixin body2Bold {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sBody2Reg {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+}
+
+@mixin body2Reg {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sBody3Bold {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+}
+
+@mixin body3Bold {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sBody3Reg {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+}
+
+@mixin body3Reg {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sLargeButton {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sSmallButton {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+}
+
+@mixin sTextButton {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+@mixin sCaptionBold {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+}
+
+@mixin captionBold {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+}
+
+@mixin sCaptionReg {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+}
+
+@mixin captionReg {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+}
+
+@mixin tradeAmountMob {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.4px;
+}
+
+@mixin tradePriceMob {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+//new font name list end
+@mixin fontActive {
+  color: $cornflower;
+  font-weight: 400;
+}
+
+@mixin fontSizeSmallest {
+  font-size: 12px;
+}
+
+@mixin fontSizeExtraSmall {
+  font-size: 13px;
+}
+
+@mixin fontSizeSmall {
+  font-size: 14px;
+}
+
+@mixin fontWeightNormal {
+  font-weight: 400;
+}
+
+@mixin fontWeightBold {
+  font-weight: 500;
+}
+
+@mixin lightFont {
+  color: rgba($black, 0.54);
+  font-weight: 400;
+}
+
+@mixin numberFontFamily {
+  font-family: 'Spoqa Han Sans Neo';
+}
+
+@mixin fontGrey {
+  color: rgba($black, 0.54);
+}
+
+@mixin fontRed {
+  color: $lightRed;
+}
+
+@mixin linkTransition {
+  transition: 300ms;
+}
+
+@mixin fontLight {
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 400;
+}
+
+@mixin fontDeep {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+@mixin marginRight20px {
+  margin-right: 20px;
+}
+
+@mixin flexBasis10p {
+  flex-basis: 10%;
+}
+
+@mixin clickable {
+  cursor: pointer;
+}
+
+// css trick for the flex ellipsis
+@mixin flexChildEllipsisTrick {
+  min-width: 0;
+}
+
+@mixin noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+  -webkit-tap-highlight-color: transparent;
+}
+
+@mixin dialogCommon {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 10px 5px 0 rgba(154, 160, 186, 0.1), 0 10px 30px 0 rgba(166, 173, 200, 0.44);
+  z-index: 110;
+}
+
+@mixin dialogBeforeCommon {
+  position: absolute;
+  content: '';
+  border: solid transparent;
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #fff;
+  border-width: 8px;
+  pointer-events: none;
+}
+
+@mixin hoverDownArrowEffect {
+  margin-left: 10px;
+  margin-top: 4px;
+  border-bottom: 2px solid $arrowColor;
+  border-left: 2px solid $arrowColor;
+  transform: translateY(-16px) rotate(-45deg);
+  content: '';
+  opacity: 0;
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  transition: 300ms;
+}
+
+@mixin fixedDownArrow {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+  border-left: 2px solid rgba(0, 0, 0, 0.87);
+  transform: translateY(-28px) rotate(-45deg);
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  right: 30px;
+}
+
+@mixin editableText__button {
+  border: 0;
+  border-radius: 3px;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  padding: 0;
+  margin: 5px;
+}
+
+@mixin checkImage {
+  width: 16px;
+  height: 13px;
+}
+
+@mixin cancelImage {
+  width: 13px;
+  height: 13px;
+}
+
+@mixin disable {
+  cursor: default !important;
+  pointer-events: none;
+  opacity: 0.35 !important;
+  filter: Alpha(Opacity=35);
+}
+
+@mixin clickLine {
+  position: absolute;
+  background: linear-gradient(to bottom, #bb76db, $cornflower);
+  box-shadow: 0 0 2px 0 $cornflower;
+  border-radius: 3px;
+  transition-property: top, left, width, height;
+  transition-duration: 300ms;
+  z-index: 1;
+}
+
+@mixin container {
+  width: 88%;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    width: 56%;
+  }
+
+  @media (min-width: 992px) {
+    width: 34%;
+  }
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin table {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+@mixin tableRow {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+@mixin tableCell {
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  height: 48px;
+  font-weight: normal;
+  list-style: none;
+  padding: 0 8px;
+}
+
+@mixin enableEllipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  & > .enableEllipsis {
+    width: unset;
+  }
+}
+
+@mixin removeInputDefualtStyle {
+  background-color: transparent;
+  border: transparent;
+}
+
+/* mobile device (portrait or landscape) */
+@mixin mobileMediaQuery {
+  @media (max-width: 479px) {
+    @content;
+  }
+}
+/* not mobile device*/
+@mixin notMobileMediaQuery {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+
+/* iphone indicator area */
+@mixin iphoneIndicatorArea {
+  padding-bottom: 34px;
+}
+
+@mixin iphoneIndicatorTypeMediaQuery {
+  /* X, XS, 11Pro, 12Mini */
+  /* 2436x1125px at 458ppi */
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+
+  /* XR, 11 */
+  /* 1792x828px at 326ppi */
+  @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    @content;
+  }
+
+  /* XS Max, 11 Pro Max*/
+  /* 2688x1242px at 458ppi */
+  @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+
+  /* 12 and 12 Pro */
+  /* 2532x1170 pixels at 460ppi */
+  @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+
+  /* 12 Pro Max */
+  /* 2778x1284 pixels at 458ppi */
+  @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+    @content;
+  }
+}
